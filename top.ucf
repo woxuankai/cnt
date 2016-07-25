@@ -1,0 +1,35 @@
+
+
+NET "clk" LOC = N9;
+NET "dig[1]" LOC = N13;
+NET "dig[2]" LOC = M13;
+NET "dig[3]" LOC = L13;
+NET "dig[4]" LOC = K13;
+NET "dig[5]" LOC = J13;
+NET "dig[6]" LOC = J12;
+NET "dig[7]" LOC = H13;
+NET "dig[8]" LOC = G13;
+
+#NET "seg[0]" LOC = B12;
+#NET "seg[1]" LOC = A11;
+#NET "seg[2]" LOC = C11;
+#NET "seg[3]" LOC = C10;
+#NET "seg[4]" LOC = A10;
+#NET "seg[5]" LOC = B10;
+#NET "seg[6]" LOC = A9;
+#NET "seg[7]" LOC = C9;
+
+
+NET "seg[7]" LOC = B12;
+NET "seg[6]" LOC = A11;
+NET "seg[5]" LOC = C11;
+NET "seg[4]" LOC = C10;
+NET "seg[3]" LOC = A10;
+NET "seg[2]" LOC = B10;
+NET "seg[1]" LOC = A9;
+NET "seg[0]" LOC = C9;
+
+# PlanAhead Generated physical constraints 
+
+NET "split_reset_in" LOC = E6;
+NET "start_stop_in" LOC = H7;
